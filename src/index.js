@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom"; //librerias BrowserRouter del dom Permite guardar propiedades del historial de naveganación//
+//permite unir las rutas del spa con cada uno de los componentes
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+import "./index.css";
+import App from "./App";//spa
+import * as serviceWorker from "./serviceWorker";
+
+ReactDOM.render(  //mustra la pagina
+  <BrowserRouter> 
     <App />
-  </React.StrictMode>
+  </BrowserRouter>,    //envuelve el app con BrowserRouter,app maneja las sistema rutas dentro de estos los componentes:crear, listar y demás
+  document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+serviceWorker.unregister();
+
+

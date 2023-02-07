@@ -1,0 +1,100 @@
+.card-title {
+  font-family: 'Mea Culpa', cursive;  
+  color:rgb(224, 66, 216); 
+  font-size: 40px; 
+}
+
+.card-body{
+  padding: 5%;
+}
+.contenedor-experiencia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  font-family: Lato,sans-serif;
+}
+
+.contenedor-experiencia .texto-experiencia {
+  display: flex;
+  text-align: justify;
+  padding: 5px;
+  font-family: Lato,sans-serif;
+
+}
+.contenedor-experiencia .nombre-experiencia{
+  font-family: 'Lora', serif;
+  color:rgb(124, 2, 118); 
+  font-size: 25px;   
+}
+
+.contenedor-experiencia .cargo-experiencia{   
+  display: flex;
+  font-family: 'Lobster', cursive;
+  color:rgb(29, 57, 180);  
+  font-size: 20px;  
+  text-align: left;
+}
+.contenedor-experiencia .texto-experiencia{
+  display: flex;
+  align-items: justify;
+  justify-content: justify;
+}
+
+a{
+  color: rgb(6, 232, 248);
+  text-decoration: none ;
+  font-family: 'Mea Culpa', cursive;
+  font-size: 2rem; 
+  }
+a:hover{
+  color:rgb(224, 66, 216); 
+}
+
+th{
+  text-align: center;
+  font-family: 'Lora', serif;
+  color:rgb(124, 2, 118); 
+} 
+
+td{
+  text-align: left;
+  background-color: rgb(255, 221, 251); 
+}
+
+tr:nth-child(even){
+  background-color: rgb(255, 221, 251); 
+   text-align: left;
+}
+
+tr:nth-child(odd){
+  text-align: left;
+  background-color: rgb(223, 242, 255);
+ }
+
+tr:hover {
+  background-color: rgba(190, 135, 236, 0.5);
+  cursor:pointer;
+  text-align: left;
+}
+
+.btn-primary{
+  background-color:rgb(255, 185, 250); 
+  color:rgb(32, 32, 32);     
+  font-family: 'Lobster', cursive;
+  font-size: 20px; 
+  border: 2px rgb(243, 157, 229) outset;
+  border-radius:25%;   
+}
+
+.btn-primary:hover{
+  background-color:rgb(66, 148, 224); 
+  font-family: 'Lobster', cursive;
+  color:rgb(255, 253, 255);  
+  font-size: 20px; 
+  border: 2px rgb(46, 141, 230) outset;
+  border-radius:25%;     
+}
+
+  

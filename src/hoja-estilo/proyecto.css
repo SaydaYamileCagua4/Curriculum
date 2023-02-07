@@ -1,0 +1,34 @@
+.contenedor-proyecto{
+  padding: 10px;
+ }
+
+.contenedor-proyecto .titulo-proyecto {
+  text-align: center;
+  padding: 5px;
+  font-family: 'Mea Culpa', cursive;  
+  color:rgb(224, 66, 216); 
+  font-size: 30px; 
+  }
+  
+.contenedor-proyecto .nombre-proyecto {
+  font-family: 'Lora', serif;
+  color:rgb(124, 2, 118); 
+}
+.contenedor-proyecto .centro-proyecto {
+font-family: 'Lobster', cursive;
+color:rgb(29, 57, 180);  
+} 
+
+.contenedor-proyecto .texto-proyecto {
+  text-align: justify;
+  font-family: Lato,sans-serif;
+}
+
+.contenedor-proyecto .imagen-proyecto {
+  width: 100%;
+  border-radius: 15px;
+  }  
+
+.d-flex {
+  text-align: center;  
+  }
