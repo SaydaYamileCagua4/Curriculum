@@ -9,7 +9,6 @@ function Fototogra (props){
         alt='Foto'  />
         <p className= 'titulo-foto'> <strong>{props.titulo}</strong></p>
         <p className= 'texto-foto'>{props.texto}</p>
-        
     </div>
     );
 }

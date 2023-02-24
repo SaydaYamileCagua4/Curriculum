@@ -1,16 +1,15 @@
 .card-body h1{
     color:rgb(29, 57, 180);
     text-align:center;  
-    font-size: 25px;    
+    font-size: 1rem;    
     font-family: 'Lobster', cursive;
-    margin: 0 15%;
     background-color: rgba(149, 221, 255, 0.8);    
     border-radius: 25px;
 } 
 .card-body p{
     color:rgb(116, 115, 115);
     text-align:center;  
-    font-size: 25px;    
+    font-size: 1rem;    
     font-family: 'Lobster', cursive; 
 }
 
@@ -20,23 +19,23 @@
 
 form {
     font-family: 'Lobster', cursive;
-    color:rgb(29, 57, 180);   
-    font-size: 22px;
-    border-radius: 5%;
-    background-color: rgba(149, 221, 255, 0.8);    
+    color:rgb(29, 57, 180);  
+    font-size: 1rem;     
+    background-color: rgba(149, 221, 255, 0.8);  
+    border-radius: 25px;      
 }           
 
 button {
     background-color:rgb(245, 153, 240); 
     font-size: 25px; 
     color: aliceblue;
-    border: 2px rgb(252, 84, 243) outset;
+    border: 1px rgb(84, 232, 252) outset;
     border-radius:35%;   
 }   
 
 button:hover{
-    background-color:rgb(66, 148, 224);
-    font-family: 'Lobster', cursive; 
+    background-color:rgb(116, 202, 241);
+    font-family: 'Lobster', cursive;    
     font-size: 25px; 
     border: 2px rgb(0, 88, 170)outset;
     border-radius:35%;     

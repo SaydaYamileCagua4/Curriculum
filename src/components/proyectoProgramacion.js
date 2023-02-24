@@ -21,9 +21,9 @@ function ProyectoProgramacion() {
               fecha='28 de Noviembre 2022'
               imagen='laPlaza'/>
               <br></br>
-        <a href = ' https://github.com/La-plaza'>GitHub</a>
+        <a target='_blank'rel="noreferrer" href = 'https://github.com/La-plaza'>GitHub</a>
             <Button
-                target="_blank"
+                target='_blank'rel="noreferrer"
                 href="https://youtu.be/prNclF8s5nU"
                 variant="primary"
                 className="mx-3"
@@ -31,7 +31,7 @@ function ProyectoProgramacion() {
                 Ver Video
             </Button>
             <Button
-            target="_blank"
+            target='_blank'rel="noreferrer"
             href="https://www.youtube.com/watch?v=-MKRl3y2EAQ"
             variant="primary"
             className="mx-3"
@@ -53,9 +53,9 @@ function ProyectoProgramacion() {
           fecha='Fecha: 4 de octubre del 2022'
           imagen='laPlaza1'/>
         <br></br>
-        <a href = ' https://github.com/La-plaza'>GitHub</a>
+        <a target='_blank'rel="noreferrer" href = 'https://github.com/La-plaza'>GitHub</a>
         <Button
-            target="_blank"
+            target='_blank'rel="noreferrer"
             href="https://www.youtube.com/watch?v=kVhqYkvgP2s"
             variant="primary"
             className="mx-3"

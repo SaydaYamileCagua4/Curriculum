@@ -10,7 +10,7 @@ function inicio() {
           <Card.Body> 
             <a href="/mi-perfil">
               <Card.Img src="./foto2.1.png"/></a><br /><br />
-            <Card.Title>Mi perfil</Card.Title>
+            <Card.Title className="d-flex justify-content-center form-wrapper" >Mi perfil</Card.Title>
           </Card.Body>
         </Card>
 
@@ -18,7 +18,7 @@ function inicio() {
           <Card.Body> 
             <a href="/fotoArte">
             <Card.Img src="./Retoque.jpg" /></a><br /><br />
-            <Card.Title>Fotografía</Card.Title>
+            <Card.Title className="d-flex justify-content-center form-wrapper">Fotografía</Card.Title>
           </Card.Body>
         </Card>
 
@@ -26,9 +26,7 @@ function inicio() {
           <Card.Body>
           <a href="/proyectoProgramacion">
           <Card.Img src="./inteligencia.png "/></a> <br /><br />
-            <Card.Title>  
-              Programación
-            </Card.Title>
+            <Card.Title className="d-flex justify-content-center form-wrapper">Programación</Card.Title>
           </Card.Body>
         </Card>
       </CardGroup>

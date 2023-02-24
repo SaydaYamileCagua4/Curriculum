@@ -7,8 +7,8 @@ export default class Contacto extends Component {
   render() {
     return (
       
-      <CardGroup className=" " >
-          <Card className= " d-flex justify-content-center mt-4 form-wrapper rounded-4">
+      <CardGroup >
+          <Card className= "d-flex justify-content-center mt-4 form-wrapper rounded-4">
           <Card.Body> 
           <h1>Ubicación</h1>
             <p> Cundinamarca, Bogotá,</p>
@@ -19,10 +19,10 @@ export default class Contacto extends Component {
           </Card.Body>
         </Card>
 
-        <Card className= "  d-flex justify-content-center mt-4  form-wrapper rounded-4">
-          <Card.Body> 
-          <form action="https://formsubmit.co/saydayamilecaguac@gmail.com" method="POST">
-            <label for="nombre">Nombre</label>
+        <Card className= "d-flex justify-content-center mt-4 mx-2 form-wrapper rounded-4">
+        <Card.Body > 
+          <form   action="https://formsubmit.co/saydayamilecaguac@gmail.com" method="POST">
+            <label  for="nombre">Nombre</label>
             <br/>
             <input type="texto" id="name" name="nombre" placeholder="Ingrese por favor su nombre" required/>
             <br/>
@@ -34,13 +34,13 @@ export default class Contacto extends Component {
   
             <label for="comentario">Comentario</label>
             <br/>
-            <textarea cols="30" row="20" id="comentario" placeholder="Agrege por favor su comentario"></textarea> 
+            <textarea cols="30" row="20" id="comentario" placeholder="Agrege por favor su comentario" ></textarea> 
             <br/> 
-          
+
             <button type="submit">Enviar</button> 
           </form>
           </Card.Body>
-        </Card>
+          </Card>
       </CardGroup>
     );
   } 

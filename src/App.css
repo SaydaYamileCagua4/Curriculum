@@ -39,29 +39,52 @@ a.dropdown-item:hover {
 
 .App {
   min-height: 100vh;
-  background-image: url("https://i.pinimg.com/originals/d3/da/d3/d3dad34dfe8f7d35c8857f61d5e2f854.jpg");
+  background: linear-gradient(6deg, rgb(153, 240, 248) 5%, rgba(215,235,255,1) 39%, rgb(242, 235, 243) 65%);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: relative;
+  background-size:cover;
+  background-position: center;
 }
 
 footer {
-
   color:rgb(5, 20, 13);
   background: rgb(106,242,255);
-  background: linear-gradient(6deg, rgba(106,242,255,1) 5%, rgba(215,235,255,1) 39%, rgba(254,233,255,1) 65%);  
+  background-image:url("https://i.pinimg.com/564x/14/2a/f1/142af14692fbe7e72c0fe3ff680a5fbe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Mea Culpa', cursive;
   font-size: 2rem;
-  }
+}
   
 small {
   color:rgb(26, 34, 139);
-   }
+}
 
- 
-    .navbar-toggler-icon{
-        border-color: rgba(225, 57, 231, 0.781);
-        background-color: rgb(63 0 252 / 20%);
-        border-radius: 4%;
-    }
+.navbar-toggler-icon{
+  border-color: rgba(225, 57, 231, 0.781);
+  background-color: rgb(63 0 252 / 20%);
+  border-radius: 4%;
+}
 
+.icono{
+  color: rgb(252, 255, 251);
+}
+.icono:hover{
+  color:rgb(255, 255, 255); 
+  background-color: rgb(19, 11, 66);
+}
+
+.icono-1{
+  color: rgb(252, 255, 251);
+}
+.icono-1:hover{
+  color:rgb(255, 255, 255); 
+  background-color: rgb(106, 204, 243);
+}
+
+.icono-2{
+  color: rgb(252, 255, 251);
+}
+.icono-2:hover{
+  color:rgb(255, 255, 255); 
+  background-color: rgb(126, 235, 93);
+}

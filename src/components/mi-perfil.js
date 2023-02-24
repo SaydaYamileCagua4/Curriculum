@@ -24,10 +24,10 @@ function MiPerfil() {
       <> <link href="https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@200&family=Epilogue:wght@200&family=Francois+One&family=Lobster&family=Marck+Script&family=Markazi+Text&family=Mea+Culpa&family=Parisienne&family=Pinyon+Script&display=swap" rel="stylesheet"/>
         <CardGroup>
         <Card className= "d-flex justify-content-center form-wrapper mt-5 mx-2 rounded-4 "> <br /> <br />
-          <Card.Img variant="top" src="./Sayda1.png " className= "d-flex justify-content-center form-wrapper rounded-4"  style={{ height: "25rem", width: "12rem" }}/>
+          <Card.Img variant="top" src="./Sayda1.png " className= "justify-content-center form-wrapper rounded-4"  style={{ height: "25rem", width: "12rem" }}/>
           <Card.Body>
             <Card.Title>Mi Perfil </Card.Title>
-            <Experiencia
+            <Experiencia className= "d-flex justify-content-center form-wrapper mt-5 mx-2 rounded-4 "
             funciones=' Persona emprendedora, responsable y colaboradora, con capacidad analítica y destreza para tomar decisiones
             con base en los conocimientos y experiencia adquirida. 
             Dichos conocimientos se basan en manejo adecuado de sistemas de cómputo;  
@@ -262,10 +262,33 @@ function MiPerfil() {
             fecha='Abril 2021-Actualmente'
             />
             <Button variant="primary" onClick={ () => abrirModal('certificados/Comdata')}>VER</Button>  
-            <br></br><br></br>
+            <br /><br />
+            
+            <Accordion>
+            <Accordion.Item eventKey="5">
+          <Accordion.Header>
+            <img
+                alt="logo"
+                width="130"
+                height="80"
+                src="./logoNeo.jpg"
+                className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
+              />
+        </Accordion.Header>
+            <Accordion.Body>
+            <Experiencia
+            nombre='NEOCONSTRUCIONES INTEGRALES SAS'
+            cargo='Fotografía y asistente de diseño grafico'
+            funciones='Funcones: Imagen digital, elaboración de piezas publicitarias; avisos, pendones, tarjetas
+            de presentacion, pagina web, fotografía de eventos y material ecológico para la fundación'
+            fecha='Octubre 2021 – Marzo 2022.'
+            />
+          <Button variant="primary" onClick={ () => abrirModal('certificados/Neoconstrucciones')}>VER</Button>
+      </Accordion.Body>
+  </Accordion.Item>
+  
         
-        <Accordion>
-        <Accordion.Item eventKey="5">
+        <Accordion.Item eventKey="6">
           <Accordion.Header>
             <img
                 alt="logo"
@@ -290,7 +313,7 @@ function MiPerfil() {
       </Accordion.Body>
   </Accordion.Item>
 
-  <Accordion.Item eventKey="6">
+  <Accordion.Item eventKey="7">
           <Accordion.Header>
             <img
                 alt="logo"
@@ -314,13 +337,13 @@ function MiPerfil() {
       </Accordion.Body>
   </Accordion.Item>
 
-  <Accordion.Item eventKey="7">
+  <Accordion.Item eventKey="8">
           <Accordion.Header>
             <img
                 alt="logo"
                 width="130"
                 height="80"
-                src="./00.logofundacionPulso.jpg"
+                src="./00.LogofundacionPulso.jpg"
                 className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
               />
         </Accordion.Header>

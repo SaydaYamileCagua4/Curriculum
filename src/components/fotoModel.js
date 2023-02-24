@@ -7,7 +7,7 @@ import Fotogra from './Fotogra';
 function FotoModel() {
 
   return (
-    <Carousel className= "mt-5">
+    <Carousel>
       <Carousel.Item>
         <Fotogra
         foto='Laura'

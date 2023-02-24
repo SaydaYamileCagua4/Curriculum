@@ -6,7 +6,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "./App.css";
 import {  CDBBtn, CDBIcon, CDBBox} from 'cdbreact';
 import { Dropdown} from 'react-bootstrap';
 import { Link } from "react-router-dom";
@@ -22,6 +21,8 @@ import FotoNatural from "./components/fotoNatural";
 import FotoModel from "./components/fotoModel";
 import FotoCasual from "./components/fotoCasual";
 import Contacto from "./components/contacto";
+import Logo from "./components/logo";
+import "./App.css";
 
 
 function App() {
@@ -32,14 +33,8 @@ function App() {
           <Container>
             <Dropdown.Header></Dropdown.Header> 
               <Link to={"/"} className="nav-link">
+              <Logo></Logo>    
               <link href="https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@200&family=Epilogue:wght@200&family=Francois+One&family=Lobster&family=Marck+Script&family=Markazi+Text&family=Mea+Culpa&family=Parisienne&family=Pinyon+Script&display=swap" rel="stylesheet"/>
-                <img
-                alt="Logo"
-                src="/Logo_Studio_Cagua.png"
-                width="200"
-                height="100"
-                className="d-inline-block align-top"
-                />          
             </Link>
           <span>Sayda Yamile Cagua Carrillo </span>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -130,22 +125,14 @@ function App() {
           </Row>
         </Container>
 
-  <footer className="footer bg-light">
+  <footer className="footer bg-light mt-5">
   <CDBBox display="flex" flex="column" className="mx-auto py-4" style={{ width: '70%' }}>
   <CDBBox display="flex" justifyContent="between" className="flex-wrap">
+  
   <CDBBox>
-    <a href="/mi-perfil" className="d-flex align-items-center p-0 text-dark">
       <Link to={"/"} className="nav-link">
-        <img
-          alt="Logo"
-          src="/Logo_Studio_Cagua.png"
-          width="200"
-          height="100"
-          className="d-inline-block align-top"
-        />        
-          
+        <Logo></Logo>
       </Link>
-    </a>
   </CDBBox>
 
   <CDBBox>
@@ -157,9 +144,7 @@ function App() {
       <p>saydayamilecaguac@gmail.com</p>
     </CDBBox>
   </CDBBox>
-
-  
-    
+ 
     <CDBBox>
       <p display="flex">
         Proyectos</p>
@@ -208,16 +193,16 @@ function App() {
     display="flex" 
     className="mx-auto">
       
-    <CDBBtn flat color="dark"className="mx-3" >
-      <CDBIcon fab icon="github" />
+    <CDBBtn className="icono mx-3" flat color="dark" >
+    <a className='icono' target='_blank' rel="noreferrer" href="https://github.com/SaydaYamileCagua4"> <CDBIcon fab icon="github"/></a>
     </CDBBtn>
 
-    <CDBBtn flat color="primary" className="mx-3">
-      <CDBIcon fab icon="linkedin" />
-      </CDBBtn>
+    <CDBBtn className="icono-1 mx-3" flat color="primary">
+      <a className='icono-1' target='_blank'rel="noreferrer"  href="https://linkedin.com/in/sayda-cagua-b66b4213b"> <CDBIcon fab icon="linkedin" /></a>
+    </CDBBtn>
 
-    <CDBBtn flat color="success" className="mx-3">
-      <CDBIcon fab icon="whatsapp" />
+    <CDBBtn className="icono-2 mx-3" flat color="success">
+      <a className="icono-2" target='_blank'rel="noreferrer" href="https://web.whatsapp.com/"> <CDBIcon fab icon="whatsapp" /></a>
     </CDBBtn>
   </CDBBox>
 

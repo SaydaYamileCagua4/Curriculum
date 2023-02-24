@@ -24,7 +24,7 @@
     height: 30rem;
     width: 50rem;
     border-radius: 5%;
-    border:10px solid;
+    border:5px solid;
     border-color: rgba(106, 245, 210, 0.5);
 }   
 
@@ -54,9 +54,22 @@
     height: 30rem;
     width: 20rem;
     border-radius: 5%;
-    border:10px solid;
+    border:5px solid;
     border-color: rgba(192, 248, 118, 0.5);
-}       
+}  
+
+.carousel-control-next-icon {
+    background-color: rgb(73, 137, 255);
+    border-radius: 30%; 
+    border: 3px solid;  
+    border-color: rgb(153, 66, 224); 
+}
+.carousel-control-prev-icon {
+    background-color: rgb(73, 137, 255);
+    border-radius: 30%;
+    border: 3px solid;
+    border-color: rgb(153, 66, 224); 
+}
 
 @media (max-width: 997px){
     .contenedor-foto .imagen-foto{

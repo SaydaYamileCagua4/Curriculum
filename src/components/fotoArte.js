@@ -6,7 +6,7 @@ import Fotogra from './Fotogra';
 
 function FotoArte() {
   return (
-    <Carousel className= "mt-5">
+    <Carousel>
       <Carousel.Item>
         <Fototogra 
         foto='Araña'

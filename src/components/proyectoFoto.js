@@ -21,9 +21,9 @@ function ProyectoFoto() {
               fecha='Fecha 03 Diciembre 2020'
               imagen='parasomnia'/>
               <br />
-        <a href = 'https://www.calameo.com/books/00580503732c350c97fe0'>Parasomnia </a>
+        <a target='_blank'rel="noreferrer" href = 'https://www.calameo.com/books/00580503732c350c97fe0'>Parasomnia </a>
             <Button
-                target="_blank"
+                target='_blank'rel="noreferrer"
                 href="https://vimeo.com/485295259"
                 variant="primary"
                 className="mx-3"
@@ -43,9 +43,9 @@ function ProyectoFoto() {
           fecha='Fecha: 04 Junio 2020'
           imagen='cineastas'/>
         <br />
-        <a href = ' https://indd.adobe.com/view/fec310a2-3065-4f44-9456-c71e8a5cac6d'>Libro de produccion</a>
+        <a target='_blank'rel="noreferrer" href = 'https://indd.adobe.com/view/fec310a2-3065-4f44-9456-c71e8a5cac6d'>Libro de produccion</a>
         <Button
-            target="_blank"
+            target='_blank'rel="noreferrer"
             href="https://www.youtube.com/watch?v=FYiqFVMND2Q"
             variant="primary"
             className="mx-3"
@@ -67,31 +67,31 @@ function ProyectoFoto() {
           imagen='naturaleza'/>
         <br /> <span />
           <Button
-            target="_blank"
+            target='_blank'rel="noreferrer"
             href="https://youtu.be/oucInERrO-Q"
             variant="primary"
-            className="mx-3">
+            className="mx-3 my-2">
                 Portafolio
                 </Button> <span /><br />
                 <Button
-            target="_blank"
+            target='_blank'rel="noreferrer"
             href="https://youtu.be/7neAePbHU5s"
             variant="primary"
-            className="mx-3">
+            className="mx-3 my-2">
                 El Asecho
                 </Button><span />
                 <Button
-            target="_blank"
+            target='_blank'rel="noreferrer"
             href="https://youtu.be/QIDUhfMdNjM"
             variant="primary"
             className="mx-3">
                 Etica Profesional
                 </Button> <span />  
                 <Button
-            target="_blank"
+            target='_blank'rel="noreferrer"
             href="https://youtu.be/NuyjgagHasU"
             variant="primary"
-            className="mx-3">
+            className="mx-3 my-2">
                 Psicopata
                 </Button> 
           </Card.Body>
