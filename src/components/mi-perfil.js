@@ -28,15 +28,19 @@ function MiPerfil() {
           <Card.Body>
             <Card.Title>Mi Perfil </Card.Title>
             <Experiencia className= "d-flex justify-content-center form-wrapper mt-5 mx-2 rounded-4 "
-            funciones=' Persona emprendedora, responsable y colaboradora, con capacidad analítica y destreza para tomar decisiones
-            con base en los conocimientos y experiencia adquirida. 
-            Dichos conocimientos se basan en manejo adecuado de sistemas de cómputo;  
-            manejo el paquete office,  paquete adobe, sistema prevalidador muisca Dian, 
-            Tortoise, entre otras plataformas. 
-            Con una sólida formación integral, y grandes fortalezas a destacar,  
-            las cuales cabe resaltar el dinamismo y la organización, cumplimiento de actividades 
-            asignadas, proactividad y aprovechamiento de manera eficiente y eficaz de los recursos a
-            su alcance en mejoramiento de procesos logísticos y operativos.'
+            funciones='Profesional en diseño gráfico (en formación), 
+            Tecnólogo en cámara y Fotografía para cine y Técnica profesional en Fotografía 
+            para cine con experiencia laboral superior a 5 años en el sector de servicios; 
+            ejecutando funciones relacionadas con el proceso de atención y servicio al cliente, 
+            creación de pagina web y manuales de identidad corporativa. 
+            Además, registro de información y actualización de datos, 
+            asesoría en trámites, traslados, pedidos, cancelación, modificación de servicio, 
+            retención de cliente, procesos de ajuste de facturación y agendamiento de servicios. 
+            Con interés ocupacional en adquirir mayor experiencia laboral en el área de formación. 
+            Con conocimiento ene  manejo de herramientas ofimáticas en nivel intermedio. 
+            Persona dinámica, organizada, colaboradora, analítica, con facilidad para la toma decisiones, 
+            comprometida, compañerista, colaboradora, orientada al detalle al logro de objetivos, 
+            al seguimiento de normas e instrucciones buenas relaciones interpersonales trabajo en equipo.'
             />
             <p><a target="_blank" href="./Hoja_Vida_Sayda_Yamile_Cagua_Carrillo.pdf">Hoja de vida</a></p>  
           </Card.Body>
@@ -46,12 +50,12 @@ function MiPerfil() {
           <Card.Body >
             <Card.Title>Educación</Card.Title>
             <Experiencia
-            nombre='CIDE'
-            cargo='Corporación Internacional Del Desarrollo Educativo'
-            funciones=' Técnica Profesional en Fotografía y Camarografía'
-            fecha='Bogotá 23 de Agosto 2014.'
+            nombre='SENA'
+            cargo='Servicio Nacional de Aprendizaje'
+            funciones='Técnologo en Cámara y Fotografía para Cine'
+            fecha='Bogotá 24 de Febrero 2023'
             />
-            <Button variant="primary" onClick={ () => abrirModal('certificados/00.DiplomaFotografía')}>VER</Button>     
+            <Button variant="primary" onClick={ () => abrirModal('certificados/tecnologoFotografía')}>VER</Button>     
             <br/> <br/>
             <Card.Text>   
 
@@ -175,11 +179,15 @@ function MiPerfil() {
             <Table striped bordered hover size="sm">
             <thead>
         <tr>
-          <th>CURSO</th>
+          <th>TÉCNICO PROFESIONAL</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
+      <tr>
+          <td>Técnica Profesional en Fotografía y Camarografía</td>
+          <Button variant="primary" onClick={ () => abrirModal('certificados/00.DiplomaFotografía')}>VER</Button>       
+        </tr>
       <tr>
           <td>Seminario Consolidation of English Knowledge</td>
           <Button variant="primary" onClick={ () => abrirModal('certificados/Ingles')}>VER</Button>       
@@ -223,6 +231,34 @@ function MiPerfil() {
                 alt="logo"
                 width="130"
                 height="80"
+                src="./00.LogoComdata.png"
+                className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
+              />
+        </Accordion.Header>
+            <Accordion.Body>
+            <Table striped bordered hover size="sm">
+            <thead>
+        <tr>
+          <th>CURSO</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+          <td>Creadores de la Experiencia ETB</td>
+          <Button variant="primary" onClick={ () => abrirModal('certificados/Experiencia1')}>VER</Button>       
+        </tr>
+      </tbody>
+    </Table>
+  </Accordion.Body>
+  </Accordion.Item>
+
+  <Accordion.Item eventKey="5">
+  <Accordion.Header>
+            <img
+                alt="logo"
+                width="130"
+                height="80"
                 src="./01.Atento.jpg"
                 className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
               />
@@ -254,18 +290,42 @@ function MiPerfil() {
           <Card.Body>
             <Card.Title>Mi Experiencia</Card.Title>
             <Experiencia
+            nombre='ASD'
+            cargo='Coordinador de Agentes transcriptores'
+            funciones='Funciones : Coordinar, programar y ejecutar las actividades de los grupos de trabajo para finalmente lograr los objetivos previstos
+            por el proceso CIV (Centro de Interpretación y verificación) de las elecciones 2023. Supervisar las tareas asignadas al equipo, Fomentar la participación 
+            y el espíritu del trabajo en equipo, creando un clima de trabajo cordial, fomentando valores para que el grupo de trabajo se coordine mejor.
+            Gestión de las necesidades del equipo, verificando el ingreso, asistencia y reportes de incapacidades de los transcriptores.'
+            fecha='Octubre 2023- Diciembre 2023'
+            />
+            <Button variant="primary" onClick={ () => abrirModal('certificados/Asd')}>VER</Button>  
+            <br /><br />
+            
+            <Accordion>
+            <Accordion.Item eventKey="5">
+          <Accordion.Header>
+            <img
+                alt="logo"
+                width="130"
+                height="80"
+                src="./00.LogoComdata.png"
+                className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
+              />
+        </Accordion.Header>
+            <Accordion.Body>
+            <Experiencia
             nombre='COMDATA'
             cargo='Asesor call center'
             funciones='Funciones : Atencion al cliente Campaña Etb hogares inbound manejo tecnología ; 
             Regional trámites y Fibra área de trámites y reclamos, 
             Retención en primer nivel, venta de producto, verificación y ajuste de factura.'
-            fecha='Abril 2021-Actualmente'
+            fecha='Abril 2021-Junio 2023'
             />
-            <Button variant="primary" onClick={ () => abrirModal('certificados/Comdata')}>VER</Button>  
-            <br /><br />
-            
-            <Accordion>
-            <Accordion.Item eventKey="5">
+          <Button variant="primary" onClick={ () => abrirModal('certificados/Comdata')}>VER</Button>
+      </Accordion.Body>
+  </Accordion.Item>
+
+            <Accordion.Item eventKey="6">
           <Accordion.Header>
             <img
                 alt="logo"
@@ -279,16 +339,17 @@ function MiPerfil() {
             <Experiencia
             nombre='NEOCONSTRUCIONES INTEGRALES SAS'
             cargo='Fotografía y asistente de diseño grafico'
-            funciones='Funcones: Imagen digital, elaboración de piezas publicitarias; avisos, pendones, tarjetas
-            de presentacion, pagina web, fotografía de eventos y material ecológico para la fundación'
-            fecha='Octubre 2021 – Marzo 2022.'
+            funciones='Funciones: Imagen corporativa y marca, elaboración de piezas publicitarias; 
+            avisos, pendones, tarjetas de presentacion, pagina web, fotografía de eventos y material 
+            relacionado con la empresa.'
+            fecha='Octubre 2021 – Marzo 2022'
             />
           <Button variant="primary" onClick={ () => abrirModal('certificados/Neoconstrucciones')}>VER</Button>
       </Accordion.Body>
   </Accordion.Item>
   
         
-        <Accordion.Item eventKey="6">
+        <Accordion.Item eventKey="7">
           <Accordion.Header>
             <img
                 alt="logo"
@@ -307,13 +368,13 @@ function MiPerfil() {
             Retención en primer nivel, venta de producto, verificación y ajuste de factura año y medio en área
             de ajustes y posterior 4 meses en área de backoffice verificación y solución de reclamaciones área 
             de lecturabilidad y en área de torres verificación de solución de procesos y escalamientos.'
-            fecha='Agosto 2017 – Abril 2021.'
+            fecha='Agosto 2017 – Abril 2021'
             />
           <Button variant="primary" onClick={ () => abrirModal('certificados/Atento')}>VER</Button>       
       </Accordion.Body>
   </Accordion.Item>
 
-  <Accordion.Item eventKey="7">
+  <Accordion.Item eventKey="8">
           <Accordion.Header>
             <img
                 alt="logo"
@@ -331,13 +392,13 @@ function MiPerfil() {
             elaboración de: Plantillas, actas, bitácora, evidencias de pruebas funcionales, 
             casos de pruebas, manuales de usuario, manejo de la estructura de documental relacionada
             a proyecto iMTegra, RUI, Claro Información Sistemas'
-            fecha='Agosto 2017 – Abril 2021.'
+            fecha='Diciembre 2014 – Julio 2015'
             />
           <Button variant="primary" onClick={() => abrirModal('certificados/stefanini')} >VER</Button>
       </Accordion.Body>
   </Accordion.Item>
 
-  <Accordion.Item eventKey="8">
+  <Accordion.Item eventKey="9">
           <Accordion.Header>
             <img
                 alt="logo"
@@ -353,13 +414,11 @@ function MiPerfil() {
             cargo='Fotografía y asistente de diseño grafico'
             funciones='Funcones: Imagen digital, elaboración de piezas publicitarias; avisos, pendones, tarjetas
             de presentacion, pagina web, fotografía de eventos y material ecológico para la fundación'
-            fecha='Agosto 2017 – Abril 2021.'
+            fecha='Septiembre 2013 – Enero 2014'
             />
           <Button variant="primary" onClick={ () => abrirModal('certificados/fundacionPulso')}>VER</Button>
       </Accordion.Body>
   </Accordion.Item>
-
-
 
         </Accordion>
       </Card.Body>
